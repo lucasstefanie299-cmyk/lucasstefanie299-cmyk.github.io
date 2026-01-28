@@ -1384,7 +1384,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #adffff;
+  background: #fe9fbd;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2812,4 +2812,11 @@ header.header {
 }
 .sub-menu .menu-item {
   display: inline-block;
+}
+body .headband {
+  display: block !important; /* 强制显示头部容器（覆盖原来的display: none） */
+  background: url("/images/header-mist.png") no-repeat center center !important;
+  background-size: cover !important;
+  height: 220px !important;
+  color: #fff !important;
 }
